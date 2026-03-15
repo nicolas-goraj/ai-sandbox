@@ -13,5 +13,4 @@ USER appuser
 
 RUN npm install -g opencode-ai
 
-#ENTRYPOINT ["/home/appuser/.npm-global/bin/opencode"]
 ENTRYPOINT ["opencode"]
